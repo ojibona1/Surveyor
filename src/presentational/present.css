@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Head{
+    width: 100vw;
+    background: transparent;
+    height: 20vh;
+    text-align: start;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    position: relative;
+}
+h1{
+    position: absolute;
+    inset:  5vw 0 0 15vw;
+}
+.question{
+    padding: 10px;
+    width: 60vw;
+    background: rgb(148, 19, 148);
+    height: 2.5em;
+    color: white;
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+.options{
+    display: block;
+    padding: 30px;
+    background: blue;
+}
+
+label{
+    color: white;
+}
