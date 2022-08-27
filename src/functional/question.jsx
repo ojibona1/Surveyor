@@ -7,11 +7,9 @@ import { getOptionsById } from './data'
 const Questions =()=> {
 
     const [question1, setQuestion1] = useState('')
-
     const [option1, setOption1] = useState({})
     const [option2, setOption2] = useState({})
     const [option3, setOption3] = useState({})
-
     const [question2, setQuestion2] = useState('')
     const [question3, setQuestion3] = useState('')
 
@@ -35,8 +33,6 @@ const Questions =()=> {
         setOption3(getOptionsById(3)[0])
         
     }, [])
-
-            console.log(option1)
 
     return(
         <div>

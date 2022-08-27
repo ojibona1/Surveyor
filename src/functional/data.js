@@ -18,7 +18,7 @@ const Options = [
         id: 1,
         optionA: 'Divine',
         optionB: 'Odunayo',
-        optionC: 'Fatai'
+        option: 'Fatai'
     },
     {
         id: 2,

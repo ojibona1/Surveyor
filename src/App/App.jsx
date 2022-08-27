@@ -9,17 +9,16 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      <Switch>
+      <Button name='Show'/>
+
       <div className="body">
-        <Route  exact path='/'>
-        <Button name='Show'/>
-        </Route>
+      <Switch>
         <Route path='/questions'>
         <Questions/>
         </Route>
-
+        </Switch>
       </div>
-      </Switch>
+
     </div>
   );
 }
